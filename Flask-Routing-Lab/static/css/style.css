@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+<style>
+       .button {
+           display: inline-block;
+           padding: 10px 20px;
+           background-color: #4287f5;
+           color: white;
+           text-decoration: none;
+           border-radius: 5px;
+       }
+   </style>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 * {
   box-sizing: border-box;
 }
 body{
-	background: red;
+	background: lightgrey;
 }
 
 .menu {
@@ -61,6 +71,9 @@ body{
     <a href="#">Link 3</a>
     <a href="#">Link 4</a>
   </div>
+
+  <h1>Home Page</h1>
+   <a href="home.html" class="button">Go to About Page</a>
 
   <div class="main">
     <h2>Lorum Ipsum</h2>

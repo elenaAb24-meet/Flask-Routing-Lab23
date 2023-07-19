@@ -11,7 +11,7 @@ def home():
     return render_template ('home.html')
 
 @app.route('/product')
-def home():
+def product():
     return render_template ('product.html')
 
 
